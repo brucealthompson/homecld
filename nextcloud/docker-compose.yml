@@ -26,7 +26,6 @@ services:
     ports:
       - 127.0.0.1:8080:80
     volumes:
-      - "E:/:/homecloud/E"
       - nextcloud:/var/www/html:z
     environment:
       - MYSQL_HOST=db
